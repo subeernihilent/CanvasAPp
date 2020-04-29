@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_pick_image"
+        android:icon="@drawable/ic_menu_add"
+        android:title="Pick from gallery"
+        app:showAsAction="ifRoom" />
+</menu>
