@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else {
             mImageFile = new File(getExternalFilesDir(filepath), filename);
         }
-        System.out.println("Views initialized);
+        System.out.println("Views initialized");
     }
 
     @Override
